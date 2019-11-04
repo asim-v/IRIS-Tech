@@ -1,0 +1,47 @@
+svg#heart {
+  height: 250px;
+  width: 250px;
+}
+
+#heart-path {
+  fill: red;
+  stroke: pink;
+  stroke-width: 1px;
+  stroke-dasharray: 125;
+  stroke-dashoffset: -125;
+  stroke-linecap: butt;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+  -ms-transition: all 2s ease-out;
+  -o-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+
+#heart-path:hover {
+  fill: pink;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 125;
+}
+
+svg#circle {
+  height: 250px;
+  width: 250px;
+}
+
+circle {
+  stroke-dasharray: 700;
+  stroke-dashoffset: 700;
+  stroke-linecap: butt;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+  -ms-transition: all 2s ease-out;
+  -o-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+
+circle:hover {
+  fill: pink;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 700;
+  stroke-width: 10;
+}
