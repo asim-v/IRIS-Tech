@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+.st0 {
+  fill: none;
+  stroke: #1e3e92;
+  stroke-miterlimit: 10;
+}
+.st1 {
+  fill: none;
+  stroke: #1e3e92;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
