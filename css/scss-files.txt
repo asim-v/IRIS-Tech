@@ -1,1 +1,3 @@
-The scss source files are available in the pro version.
+version https://git-lfs.github.com/spec/v1
+oid sha256:23345e8ec5f6bafaff9bcfe1439409c8871b8d00e6a761274e9d709c108fedef
+size 57

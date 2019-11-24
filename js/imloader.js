@@ -1,27 +1,3 @@
-$(function(){  // $(document).ready shorthand
-  $('.monster').fadeIn('slow');
-});
-
-$(document).ready(function() {
-    
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
-    
-        /* Check the location of each desired element */
-        $('.hideme').each( function(i){
-            
-            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            
-            /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > bottom_of_object ){
-                
-                $(this).animate({'opacity':'1'},1500);
-                    
-            }
-            
-        }); 
-    
-    });
-    
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:3da7a7f77e2b2a90fcbfedb5040e8e590272150f4caf703d664a58bf6203b24b
+size 806
